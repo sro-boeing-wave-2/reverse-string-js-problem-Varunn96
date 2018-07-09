@@ -1,9 +1,9 @@
 // The intent of this file is to reverse
 // the string using built in functions.
 const reverse = (inputstring) => {
-  var splitstring=inputstring.split('');
-  var revstring=splitstring.reverse();
-  var outputstring=revstring.join('');
+  const splitstring = inputstring.split('');
+  const revstring = splitstring.reverse();
+  const outputstring = revstring.join('');
   return outputstring;
 };
 
