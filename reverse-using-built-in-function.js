@@ -1,10 +1,5 @@
 // The intent of this file is to reverse
 // the string using built in functions.
-const reverse = (inputstring) => {
-  const splitstring = inputstring.split('');
-  const revstring = splitstring.reverse();
-  const outputstring = revstring.join('');
-  return outputstring;
-};
+const reverse = inputstring => inputstring.split('').reverse().join('');
 
 module.exports = reverse;
